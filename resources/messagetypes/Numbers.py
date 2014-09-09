@@ -1,0 +1,67 @@
+class Numbers(object):
+  TN_DocumentArchive= 1
+  TN_SheetArchive= 2
+  TN_FormBasedSheetArchive= 3
+  TN_PlaceholderArchive= 7
+  TSWP_SectionPlaceholderArchive= 10011
+  TN_CommandSheetInsertDrawablesArchive= 12002
+  TN_CommandDocumentInsertSheetArchive= 12003
+  TN_CommandDocumentRemoveSheetArchive= 12004
+  TN_CommandSetSheetNameArchive= 12005
+  TN_ChartMediatorArchive= 12006
+  TN_CommandPasteDrawablesArchive= 12007
+  TN_CommandDocumentReorderSheetArchive= 12008
+  TN_ThemeArchive= 12009
+  TN_CommandPasteSheetArchive= 12010
+  TN_CommandReorderSidebarItemChildrenAchive= 12011
+  TN_CommandSheetRemoveDrawablesArchive= 12012
+  TN_CommandSheetMoveDrawableZOrderArchive= 12013
+  TN_CommandChartMediatorSetEditingState= 12014
+  TN_CommandFormChooseTargetTableArchive= 12015
+  TN_CommandChartMediatorUpdateForEntityDelete= 12016
+  TN_CommandSetPageOrientationArchive= 12017
+  TN_CommandSetContentScaleArchive= 12018
+  TN_CommandSetShowPageNumbersValueArchive= 12019
+  TN_CommandSetAutofitValueArchive= 12021
+  TN_UndoRedoStateArchive= 12024
+  TN_CommandDocumentReplaceLastSheetArchive= 12025
+  TN_UIStateArchive= 12026
+  TN_ChartCommandSelectionBehaviorArchive= 12027
+  TN_SheetSelectionArchive= 12028
+  TN_SheetCommandSelectionBehaviorArchive= 12029
+  TN_CommandSetDocumentPrinterOptions= 12030
+
+
+  DICTIONARY = {
+    1: "TN_DocumentArchive",
+    2: "TN_SheetArchive",
+    3: "TN_FormBasedSheetArchive",
+    7: "TN_PlaceholderArchive",
+    10011: "TSWP_SectionPlaceholderArchive",
+    12002: "TN_CommandSheetInsertDrawablesArchive",
+    12003: "TN_CommandDocumentInsertSheetArchive",
+    12004: "TN_CommandDocumentRemoveSheetArchive",
+    12005: "TN_CommandSetSheetNameArchive",
+    12006: "TN_ChartMediatorArchive",
+    12007: "TN_CommandPasteDrawablesArchive",
+    12008: "TN_CommandDocumentReorderSheetArchive",
+    12009: "TN_ThemeArchive",
+    12010: "TN_CommandPasteSheetArchive",
+    12011: "TN_CommandReorderSidebarItemChildrenAchive",
+    12012: "TN_CommandSheetRemoveDrawablesArchive",
+    12013: "TN_CommandSheetMoveDrawableZOrderArchive",
+    12014: "TN_CommandChartMediatorSetEditingState",
+    12015: "TN_CommandFormChooseTargetTableArchive",
+    12016: "TN_CommandChartMediatorUpdateForEntityDelete",
+    12017: "TN_CommandSetPageOrientationArchive",
+    12018: "TN_CommandSetContentScaleArchive",
+    12019: "TN_CommandSetShowPageNumbersValueArchive",
+    12021: "TN_CommandSetAutofitValueArchive",
+    12024: "TN_UndoRedoStateArchive",
+    12025: "TN_CommandDocumentReplaceLastSheetArchive",
+    12026: "TN_UIStateArchive",
+    12027: "TN_ChartCommandSelectionBehaviorArchive",
+    12028: "TN_SheetSelectionArchive",
+    12029: "TN_SheetCommandSelectionBehaviorArchive",
+    12030: "TN_CommandSetDocumentPrinterOptions",
+ } 
