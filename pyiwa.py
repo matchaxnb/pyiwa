@@ -152,6 +152,7 @@ if (__name__ == '__main__'):
   reload(sys).setdefaultencoding("utf-8")
   import io
   fl = sys.argv[1]
+  debug = len(sys.argv) > 2
   with io.open(fl, 'rb') as fil:
     c = PyIWA()
     decompressed = c.load_stream(fil.read())
@@ -159,3 +160,8 @@ if (__name__ == '__main__'):
     for p in parsed_stream:
       if 'text' in p.__class__.__dict__ and len(p.text) > 0:  
         print "\n".join(p.text)
+    
+    if debug:
+      print "Debug output"
+      for p in all_parsed_items:
+        print p
